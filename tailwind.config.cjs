@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'mono': ['JetBrains Mono']
+      'mono': ['JetBrains Mono'],
+      'sans': ['Fira Sans'],
+      'pt-serif': ['PT Serif'],
+      'canela-serif': ['Canela Deck']
     },
     backgroundImage: {
     }
