@@ -24,3 +24,9 @@
 <div class="w-11/12">
 	<h2 class="text-3xl md:text-5xl pt-10 md:pt-32 pb-4 pl-14 text-blue-400 font-canela-serif italic">Our Past Achievements</h2>
 </div>
+<div class="w-11/12">
+	<h2 class="text-3xl md:text-5xl pt-10 md:pt-32 pb-4 pl-14 text-blue-400 font-canela-serif italic">Why Should You Join Us?</h2>
+</div>
+<div class="w-11/12">
+	<h2 class="text-3xl md:text-5xl pt-10 md:pt-32 pb-4 pl-14 text-blue-400 font-canela-serif italic">Our CCA Hours</h2>
+</div>
