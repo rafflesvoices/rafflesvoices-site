@@ -1,5 +1,4 @@
 <script lang="js">
-	let typingText = true;
 	import heading from '$lib/assets/img/header.jpg';
 	import Typewriter from 'svelte-typewriter'
 </script>
