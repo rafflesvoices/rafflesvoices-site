@@ -2,7 +2,6 @@
 	let typingText = true;
 	import heading from '$lib/assets/img/header.jpg';
 	import Typewriter from 'svelte-typewriter'
-	let previousTime = Date.now();
 </script>
 <div class="">
 	<img src="{heading}" alt="Raffles Voices Group" class="gradient-mask-b-0">
