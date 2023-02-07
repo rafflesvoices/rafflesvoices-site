@@ -12,5 +12,7 @@ module.exports = {
     backgroundImage: {
     }
   },
-  plugins: [require("tailwind-gradient-mask-image")]
+  plugins: [require("tailwind-gradient-mask-image"),
+  require('@tailwindcss/typography'),]
+  
 }
