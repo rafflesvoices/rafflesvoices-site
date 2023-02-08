@@ -8,24 +8,6 @@
     <title>Raffles Voices | Home</title>
 </svelte:head>
 
-<svelte:window on:scroll={() => {
-	let opacity = 0.75;
-	const destination = 400;
-	const start = 300;
-	window.addEventListener("scroll", () => {
-		const currentScroll = window.scrollY;
-		if((currentScroll - start)/destination > 0.75) {
-			opacity = (currentScroll - start)/destination;
-			console.log(opacity)
-			console.log(currentScroll - start)
-		} else {
-			opacity = 0.75;
-		}
-		document.querySelector(".navbar").style.opacity = opacity;
-	});
-
-}}/>
-
 <div class="">
 	<img src="{heading}" alt="Raffles Voices Group" class="gradient-mask-b-0">
 </div>
