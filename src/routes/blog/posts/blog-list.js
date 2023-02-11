@@ -18,7 +18,7 @@ class post {
   }
 
 let unfiltered_posts = [
-	new post(2023, 2, 10, "Lorem Ipsium", "Lorem Ipsium", "/posts/2023/2/lorem"),
+	new post(2023, 2, 10, "Lorem Ipsium", "Lorem Ipsium", "/blog/posts/2023/2/lorem"),
 ]
 
 export { unfiltered_posts };
