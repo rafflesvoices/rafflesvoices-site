@@ -35,7 +35,9 @@
 </div>
 <div class="w-11/12">
 	<h2 class="text-3xl md:text-5xl pt-10 md:pt-24 pb-4 pl-14 text-blue-400 font-canela-serif italic">Why Should You Join Us?</h2>
+	<p class="text-xl md:text-2xl pl-14 text-white font-canela-serif">We welcome all people from all backgrounds.  Prior music experience is preferred, but not required.  </p>
 </div>
 <div class="w-11/12">
 	<h2 class="text-3xl md:text-5xl pt-10 md:pt-24 pb-4 pl-14 text-blue-400 font-canela-serif italic">Our CCA Hours</h2>
+	<p class="text-xl md:text-2xl pl-14 text-white font-canela-serif">Mondays and Wednesdays: 3.50pm - 6.30pm</p>
 </div>
