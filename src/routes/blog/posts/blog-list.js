@@ -18,6 +18,7 @@ class post {
   }
 
 let unfiltered_posts = [
+	new post(2023, 3, 12, "1 Month to SYF!", "Lets GOOOOO!", "/blog/posts/2023/3/1-month-to-syf"),
 	new post(2023, 2, 10, "Lorem Ipsium", "Lorem Ipsium", "/blog/posts/2023/2/lorem"),
 ]
 
