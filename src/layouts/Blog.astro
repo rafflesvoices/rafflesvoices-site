@@ -1,0 +1,27 @@
+---
+import '../pages/blog.astro';
+import Header from '../components/Header.svelte';
+const {frontmatter} = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Raffles Voices | {frontmatter.title}</title>
+	</head>
+	<body>
+		<div class="min-h-screen bg-black">
+			<div class="pl-5 md:pl-14">
+				<Header client:only="svlete" />
+			</div>
+			<div class="w-10/12 pl-5 md:pl-14">
+				<h1 class="text-4xl md:text-7xl">{frontmatter.title}</h1>
+				<p class="text-gray-500">{frontmatter.date} | {frontmatter.author}</p>
+				<slot />
+			</div>
+		</div>
+	</body>
+</html>

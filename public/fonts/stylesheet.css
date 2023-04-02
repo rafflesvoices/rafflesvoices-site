@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-BlackItalic.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-Black.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-Bold.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-BoldItalic.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-Regular.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-Medium.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-ThinItalic.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-Light.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-Thin.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-MediumItalic.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-LightItalic.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    src: url('/fonts/CanelaDeck-RegularItalic.woff2') format('woff2'),
+        url('/fonts/CanelaDeck-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

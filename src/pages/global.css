@@ -1,0 +1,51 @@
+@import url("/fonts/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1 {
+	font-family: 'PT Serif';
+	font-weight: bold;
+	font-size: 20pt;
+	color: white;
+	padding-bottom: 12px;
+}
+
+h2 {
+	font-family: 'Canela Deck', serif;
+	font-weight: normal;
+	font-size: 17pt;
+	font-style: italic;
+	color: #60a5fa;
+	padding-bottom: 12px;
+}
+
+p {
+	font-family: 'Canela Deck', serif;
+	font-weight: normal;
+	font-size: 14pt;
+	color: white;
+	padding-bottom: 12px;
+}
+
+ul {
+	font-family: 'Canela Deck', serif;
+	font-weight: normal;
+	font-size: 14pt;
+	color: white;
+	padding-bottom: 12px;
+	list-style-type: disc;
+}
+
+@screen md {
+	h1 {
+		font-size: 26pt;
+	}
+	h2 {
+		font-size: 24pt;
+	}
+	p {
+		font-size: 16pt;
+	}
+	ul {
+		font-size: 16pt;
+	}
+}

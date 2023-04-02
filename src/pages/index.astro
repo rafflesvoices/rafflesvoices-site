@@ -1,0 +1,43 @@
+---
+import './global.css';
+import Header from '../components/Header.svelte';
+import Typewriting from '../components/Typewriting.svelte';
+import Achievements from '../components/Achievements.svelte';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Raffles Voices | Home</title>
+	</head>
+	<body>
+		<div class="min-h-screen bg-black">
+			<div class="pl-5 md:pl-14">
+				<Header client:only="svlete" />
+			</div>
+			<img src="/img/header.webp" alt="Image of Raffles Voices as of 2022" class="gradient-mask-b-40">
+			<div class="w-10/12 pl-5 md:pl-14">
+				<h1 class="text-5xl md:text-8xl">Raffles <span class="text-rvspecial">Voices</span></h1>
+				<Typewriting client:only="svlete" />
+				<h2>Who are we?</h2>
+
+				<p>Raffles Voices, the choir of Raffles Institution, was founded in 1992 by Ms Charmaine Chiang. Under the directorship of award-winning conductor Mr. Toh Ban Sheng since 2003, it has grown into a renowned SATB boys choir, garnering numerous top accolades in Europe and tackling a myriad of musical genres from classical works to modern commissions.</p>
+				<p>Raffles Voices is active in the choral arena, participating in a wide range of choral competitions from the Singapore Youth Festival (SYF) Central Judging to international choral festivals. Besides consistently achieving Gold (with Honours) and Distinction Certificate in SYF, Raffles Voices has established itself as one of the foremost choirs in Singapore since clinching its first Gold in Germany in 2006. Perhaps the most awarded secondary school choir, at the heel of winning two Gold Awards in Vienna, a Category Champion and the Conductor's Prize in 2010, it was ranked 11th of the top 50 children's choirs by Interkultur World Ranking.</p>
+				<p>At home, Raffles Voices has performed numerous times at the Esplanade Concert Hall under the Limelight Series. Apart from our rehearsals, Raffles Voices also organizes various camps and exchanges with local and international choirs. To allow each singer to further his or her exploration in music, there are various small group student bodies under our choir, where singers showcase their talents in song writing, composition and also discover varied genres of music.</p>
+				<p>To date, Raffles Voices has toured the Austria, Australia, Czech Republic, Finland, Germany, Hawaii, Japan, Korea, Lithuania, Netherlands, Poland, Slovakia and Spain. In the many years to come, Raffles Voices continually bond in camps, perform on world stages, and develop each member holistically while furthering their achievements both in Singapore and beyond. We invite all interested students to join our family of singers!</p>
+
+				<h2>Our Achievements</h2>
+				<Achievements client:only="svlete" />
+				
+				<h2>Why should you join us?</h2>
+				<p>We welcome all people from all backgrounds. Prior music experience is preferred, but not required.</p>
+
+				<h2>Our CCA Hours</h2>
+				<p>Mondays and Wednesdays: 3.50pm - 6.30pm</p>
+			</div>
+		</div>
+	</body>
+</html>

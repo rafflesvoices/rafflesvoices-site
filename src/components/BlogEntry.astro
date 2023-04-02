@@ -1,0 +1,12 @@
+---
+const { title, date, author, description, link } = Astro.props;
+
+---
+
+<div class="border-b-2 border-blue-500 pt-5">
+	<h2 class="pb-1"><a href={link} class="text-white font-pt not-italic font-bold">{title}</a></h2>
+	<div class="flex flex-row justify-start">
+		<p class="pb-1 text-gray-500">{date} | {author}</p>
+	</div>
+	<p class="pb-5">{description}</p>
+</div>

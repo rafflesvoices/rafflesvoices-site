@@ -1,0 +1,31 @@
+---
+import './global.css';
+import Header from '../components/Header.svelte';
+import BlogEntry from '../components/BlogEntry.astro';
+var allPosts = await Astro.glob('./blog/**/**/*.mdx');
+allPosts.sort((a, b) => {
+	return new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf();
+});
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Raffles Voices | Blog</title>
+	</head>
+	<body>
+		<div class="min-h-screen bg-black">
+			<div class="pl-5 md:pl-14">
+				<Header client:only="svlete" />
+			</div>
+			<div class="pr-5 md:pr-14 pl-5 md:pl-14">
+				<h1 class="text-6xl md:text-8xl">Our <span class="text-rvspecial">Blog</span></h1>
+				<div class="border-b-2 border-blue-500 pt-5"></div>
+				{allPosts.map((post) => (<BlogEntry title={post.frontmatter.title} date={post.frontmatter.date} author={post.frontmatter.author} description={post.frontmatter.description} link={post.frontmatter.link} />))}
+			</div>
+		</div>
+	</body>
+</html>
